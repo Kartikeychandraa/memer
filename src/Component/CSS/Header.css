@@ -1,0 +1,27 @@
+*{
+font-family: 'Roboto', sans-serif;
+}
+.head{
+    
+    background-color: #7a58f1;
+    color:white;   
+
+   display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+   
+}
+.links{
+      text-decoration: none;
+    color: wheat;
+  font-size: larger;
+      padding: 5px;
+}
+.links:hover{
+  color:white;
+  font-weight: 20%;
+  transition:0.5s;
+}
